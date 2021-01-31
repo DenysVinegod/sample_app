@@ -1,9 +1,13 @@
 <% provide(:title, "About") %>
 
-<h1>Sample app</h1>
-<h2>ABOUT</h2>
-<h2><a href="/">Home</a></h2>
-<h2><a href="/static_pages/help">Help</a></h2>
-<p>
-	Page created by Denys Vinegod for upgrading skils.
-</p>
+<div class="center jumbotron">
+	<h1>About Melight</h1>
+	<h2>
+		Glad 2 see u here ;)
+	</h2>
+</div>
+
+This project created for study RoR (Ruby on Rails) and show progress of this idea. Here I`m (<a href="mailto:denys.vinegod@gmail.com?subject=Ruby">Denys Vinegod</a>, <%= link_to "contacts", contact_path %>), practicing, trying different feaches, etc.<br>For example, this project is first where I use CSS framework "Bootstrap", and also in this project I try SCSS at first. Thanks for visiting, hope you like it ;)
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+'http://rubyonrails.org/' %>
