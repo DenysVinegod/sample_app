@@ -1,5 +1,4 @@
 module ApplicationHelper
-  # Возвращает полный заголовок на основе заголовка страницы.
   def full_title(page_title = '')
     base_title = "Melight"
     if page_title.empty?
